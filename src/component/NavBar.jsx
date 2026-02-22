@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HiMenu, HiX } from "react-icons/hi";
-import logo from '../assets/logo1.png';
+import logo from '/assets/logo1.png';
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
