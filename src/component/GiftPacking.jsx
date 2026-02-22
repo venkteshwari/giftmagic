@@ -1,49 +1,30 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import ear from "/assets/earring1.jpg";
-import ring from "/assets/ring.jpg";
-import bracelet from "/assets/bracelet.jpg";
-import necklace from "/assets/necklace.jpg";
-import flowerclips from "/assets/flowerclips.jpg";
-import hairclips from "/assets/GoldClip.jpg";
-import hairrubber from "/assets/HairTies.jpg";
-import watch from "/assets/watch1.jpg";
-import perfume from "/assets/earring.jpg";
-import handbag from "/assets/handbag.jpg";
-import teddy from "/assets/teddy.jpg";
-import purse from "/assets/purse.jpg";
-import kurti from "/assets/long Kurtas.jpg";
-import manring from "/assets/manring.jpg";
-import sunglass from "/assets/sunglass.jpg";
-import wallet from "/assets/wallet.jpg";
-import manwatch from "/assets/manwatch.jpg";
-import cap from "/assets/cap.jpg";
-
 // Gift categories for women
 const womenCategories = [
-  { name: "earring", img: ear },
-  { name: "ring", img: ring },
-  { name: "bracelet gift", img: bracelet },
-  { name: "necklace", img: necklace },
-  { name: "flower claw clips", img: flowerclips },
-  { name: "hair clips", img: hairclips },
-  { name: "hair rubber", img: hairrubber },
-  { name: "watch", img: watch },
-  { name: "perfume", img: perfume },
-  { name: "handbag", img: handbag },
-  { name: "teddy", img: teddy },
-  { name: "purse", img: purse },
-  { name: "kurti", img: kurti },
+  { name: "earring", img: "/assets/earring1.jpg" },
+  { name: "ring", img: "/assets/ring.jpg" },
+  { name: "bracelet gift", img: "/assets/bracelet.jpg" },
+  { name: "necklace", img: "/assets/necklace.jpg" },
+  { name: "flower claw clips", img: "/assets/flowerclips.jpg" },
+  { name: "hair clips", img: "/assets/GoldClip.jpg" },
+  { name: "hair rubber", img: "/assets/HairTies.jpg" },
+  { name: "watch", img: "/assets/watch1.jpg" },
+  { name: "perfume", img: "/assets/earring.jpg" },
+  { name: "handbag", img: "/assets/handbag.jpg" },
+  { name: "teddy", img: "/assets/teddy.jpg" },
+  { name: "purse", img: "/assets/purse.jpg" },
+  { name: "kurti", img: "/assets/long Kurtas.jpg" },
 ];
 
 // Gift categories for men
 const menCategories = [
-  { name: "Watch", img: manwatch },
-  { name: "Cap", img: cap },
-  { name: "Ring", img: manring },
-  { name: "Wallet", img: wallet },
-  { name: "sunglass", img: sunglass },
+  { name: "Watch", img: "/assets/manwatch.jpg" },
+  { name: "Cap", img: "/assets/cap.jpg" },
+  { name: "Ring", img: "/assets/manring.jpg" },
+  { name: "Wallet", img: "/assets/wallet.jpg" },
+  { name: "Sunglass", img: "/assets/sunglass.jpg" },
 ];
 
 const GiftPacking = () => {
@@ -97,8 +78,7 @@ const GiftPacking = () => {
         >
           {/* Left Side */}
           <div className="space-y-6 lg:border-r-2 border-gray-300 lg:pr-8">
-
-            {/* Color Picker on Top */}
+            {/* Color Picker */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Select Theme Color

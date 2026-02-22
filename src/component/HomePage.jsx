@@ -1,5 +1,4 @@
 import React from 'react';
-import bgGift from '/assets/logo1.png';
 import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
@@ -57,7 +56,7 @@ function HomePage() {
       {/* Right Section - Image */}
       <div className="md:w-1/2 flex justify-center mt-10 md:mt-0 relative z-0">
         <img
-          src={bgGift}
+          src="/assets/logo1.png" // ✅ Use path directly, no import
           alt="Gift Box"
           className="w-[250px] sm:w-[400px] md:w-[500px] lg:w-[600px] object-contain drop-shadow-2xl animate-bounce"
         />
