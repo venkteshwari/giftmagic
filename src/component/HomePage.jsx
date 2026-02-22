@@ -1,5 +1,5 @@
 import React from 'react';
-import bgGift from '../assets/logo1.png';
+import bgGift from '/assets/logo1.png';
 import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
