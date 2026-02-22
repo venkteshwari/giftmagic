@@ -1,24 +1,24 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import ear from "../assets/earring1.jpg";
-import ring from "../assets/ring.jpg";
-import bracelet from "../assets/bracelet.jpg";
-import necklace from "../assets/necklace.jpg";
-import flowerclips from "../assets/flowerclips.jpg";
-import hairclips from "../assets/GoldClip.jpg";
-import hairrubber from "../assets/HairTies.jpg";
-import watch from "../assets/watch1.jpg";
-import perfume from "../assets/earring.jpg";
-import handbag from "../assets/handbag.jpg";
-import teddy from "../assets/teddy.jpg";
-import purse from "../assets/purse.jpg";
-import kurti from "../assets/long Kurtas.jpg";
-import manring from "../assets/manring.jpg";
-import sunglass from "../assets/sunglass.jpg";
-import wallet from "../assets/wallet.jpg";
-import manwatch from "../assets/manwatch.jpg";
-import cap from "../assets/cap.jpg";
+import ear from "/assets/earring1.jpg";
+import ring from "/assets/ring.jpg";
+import bracelet from "/assets/bracelet.jpg";
+import necklace from "/assets/necklace.jpg";
+import flowerclips from "/assets/flowerclips.jpg";
+import hairclips from "/assets/GoldClip.jpg";
+import hairrubber from "/assets/HairTies.jpg";
+import watch from "/assets/watch1.jpg";
+import perfume from "/assets/earring.jpg";
+import handbag from "/assets/handbag.jpg";
+import teddy from "/assets/teddy.jpg";
+import purse from "/assets/purse.jpg";
+import kurti from "/assets/long Kurtas.jpg";
+import manring from "/assets/manring.jpg";
+import sunglass from "/assets/sunglass.jpg";
+import wallet from "/assets/wallet.jpg";
+import manwatch from "/assets/manwatch.jpg";
+import cap from "/assets/cap.jpg";
 
 // Gift categories for women
 const womenCategories = [

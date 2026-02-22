@@ -2,7 +2,7 @@ import React from 'react';
 import { FaFacebookF, FaInstagram, FaYoutube, FaWhatsapp } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { FaPhone } from 'react-icons/fa6';
-import logo from '../assets/bg3.png';
+import logo from '/assets/bg3.png';
 
 function Footer() {
   return (

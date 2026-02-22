@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegListAlt, FaBoxOpen, FaGift } from "react-icons/fa";
-import img1 from "../assets/bg3.png";
+import img1 from "/assets/bg3.png";
 
 function About() {
   return (

@@ -3,15 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import { GiPresent } from "react-icons/gi";
 import { AiOutlineThunderbolt } from 'react-icons/ai';
 
-import Image from '../assets/minigift3.jpeg';
-import Image1 from '../assets/candle.jpeg';
-import Image2 from '../assets/gift20.jpeg';
-import Image3 from '../assets/frame.jpeg';
-import Image4 from '../assets/gift15.jpeg';
-import Image5 from '../assets/card.jpeg';
-import Image6 from '../assets/pipe.jpeg';
-import Image7 from '../assets/boquet.jpeg';
-import Image8 from '../assets/cover.jpeg';
+import Image from '/assets/minigift3.jpeg';
+import Image1 from '/assets/candle.jpeg';
+import Image2 from '/assets/gift20.jpeg';
+import Image3 from '/assets/frame.jpeg';
+import Image4 from '/assets/gift15.jpeg';
+import Image5 from '/assets/card.jpeg';
+import Image6 from '/assets/pipe.jpeg';
+import Image7 from '/assets/boquet.jpeg';
+import Image8 from '/assets/cover.jpeg';
 
 const Cards = () => {
   const navigate = useNavigate();
